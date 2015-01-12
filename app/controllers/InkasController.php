@@ -2,10 +2,12 @@
 
 class InkasController extends BaseController {
 
-	public function showWelcome()
+	public function index()
 	{
-		return View::make('Brent50usd');
+            return View::make('index');
 	}
-
+       public function signin()
+	{
+           return View::make('hello');
+	}
 }
-?>
